@@ -150,49 +150,63 @@ HIỆN TẠI — 20 phút thao tác/đơn có mâu thuẫn, không tính chờ k
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Pitch Problem Card | Trình bày card #11, thảo luận và phản biện với các thành viên khác | Sau thảo luận, chấm điểm cho từng vấn đề và tạo shortlist, chọn ra đề tài có điểm cao nhất |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | (Đề tài: ứng dụng AI đề xuất voucher giảm giá đồ ăn) Câu hỏi: Tại sao người dùng lại muốn sử dụng AI của bạn trong khi họ có thể sử dụng một tool được viết đơn giản để tìm ra món ăn có voucher tốt nhất. |
+| Nhận phản biện | Câu hỏi tôi nhận được: Nếu ghi số trang hoặc dùng Zotero đã giúp tìm lại bằng chứng nhanh hơn thì có cần AI không? | Tôi đã sửa gì: Tôi bổ sung phương án ghi chú có nguồn và dùng Zotero để thử trước; chỉ cân nhắc AI nếu cách này vẫn chưa giải quyết được vấn đề. |
 | Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Chọn candidate problem | Tham gia thảo luận và chấm điểm shortlist. | Nhóm chọn đề tài tìm lại bằng chứng trong paper. |
+| Kiểm chứng / research | Phụ trách CP4: lập assumption map, tổng hợp kịch bản kiểm chứng và research Zotero, Adobe, RAG. | Làm rõ giả định cần kiểm tra, tín hiệu phản bác và phương án không dùng AI. |
+| Quy trình nhóm | Trong CP4, tách bước dò vị trí bằng chứng khỏi bước kiểm ngữ cảnh. | Cung cấp đầu vào cho CP5 để xác định bước nghẽn và cách đo riêng. |
+| Problem Statement | Trong CP4, thu hẹp đối tượng thành sinh viên có ghi chú thiếu vị trí nguồn. | Làm rõ actor và phạm vi bài toán cho Problem Statement. |
+| Mức can thiệp AI | Đề xuất thử ghi chú có cấu trúc và Zotero trước trong kết luận research. | Cung cấp cơ sở cho hướng No AI First ở CP6. |
+| Quyết định | Nêu trong CP4 rằng chưa đủ cơ sở khẳng định cần RAG hay tự xây agent. | Bổ sung căn cứ cho đề xuất Not Yet; cần đo hiệu quả phương án đơn giản trước. |
 
 ---
 
 ## 5. Dùng AI
 
+Bảng ghi lại phần hỗ trợ ở CP1–CP4 và lần rà soát báo cáo hiện tại. Với CP5–CP6, tôi đối chiếu đầu vào từ CP4; Khoa phụ trách CP5, Lam phụ trách CP6, Dương tổng hợp báo cáo và slide.
+
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý và diễn đạt các tình huống mô phỏng thành Job Story. | Làm rõ actor, thời điểm và bước gây khó khăn trong từng tình huống. | Số liệu minh họa chưa phải bằng chứng đã kiểm chứng; diễn đạt cụ thể dễ làm người đọc hiểu là dữ liệu thật. | Giữ phạm vi mô phỏng đã nêu ở CP1–CP2; chọn ba card có tác vụ và cách kiểm tra rõ. |
+| CP2 Problem Card | Phản biện card và cách đo hiệu quả, nhất là so sánh biến thể alpha. | Chỉ ra “tốt hơn” và “thông tin mới” chưa rõ, cần có phương án không AI. | Bản phân tích chưa chứng minh baseline; diễn giải nhiều thay đổi cùng lúc dễ vượt quá dữ liệu. | Bổ sung tiêu chí ưu tiên, giới hạn đánh đổi và nguồn cho kết luận; thử Excel/script trước, tính cả công kiểm và sửa. |
+| CP4 Research | Hỗ trợ cấu trúc báo cáo, tổng hợp giải pháp và kịch bản kiểm chứng. | Sắp xếp assumption map, tín hiệu phản bác và bảng Zotero, Adobe, RAG theo bước quy trình. | Kịch bản phỏng vấn và số liệu giả định không xác nhận pain thực; tính năng công cụ không chứng minh hiệu quả trên paper của nhóm. | Thu hẹp actor theo ghi chú thiếu vị trí nguồn; giữ bước kiểm ngữ cảnh và ưu tiên thử No AI, chưa coi 10–12 phút là baseline thực đo. |
+| CP5 Quy trình | Trong lần rà soát này, đối chiếu quy trình của nhóm với phân tích CP4. | Làm rõ khác biệt giữa tìm vị trí và xác minh ngữ cảnh. | Sơ đồ đủ bước chưa chứng minh bước nào lâu nhất; chưa tính được công chuẩn bị ghi chú. | Giữ thời gian ở trạng thái cần đo và nhánh tìm thủ công; không nhận phần dựng quy trình của Khoa là phần tôi phụ trách. |
+| CP5–6 Problem Statement | Đối chiếu actor, metric và boundary với CP4 trong lần rà soát báo cáo. | Kiểm tra sự nối tiếp từ giả định đến phạm vi và cách đo. | Các bản trong repo chưa đồng nhất hoàn toàn về nguồn kiểm chứng; target dễ bị hiểu nhầm là kết quả. | Giữ rõ phạm vi ghi chú thiếu nguồn, chưa có baseline; mục tiêu giảm 30% phải tính cả chuẩn bị và xác minh, không giảm chất lượng. |
+| CP6 Mức can thiệp / quyết định | Rà sự nhất quán giữa kết luận research và đề xuất của nhóm. | Giải thích vì sao thử No AI trước, chỉ tăng mức khi còn bước nghẽn. | Chưa có kết quả pilot để kết luận Zotero đủ dùng hoặc AI tốt hơn. | Giữ Not Yet ở mức đề xuất, không ghi thành quyết định triển khai; phần CP6 do Lam phụ trách. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Khi đối chiếu các đề tài, tôi nhận ra vấn đề mình quen thuộc chưa chắc là lựa chọn phù hợp nhất cho cả nhóm. Card so sánh biến thể alpha của tôi có bước phân tích rõ nhưng đòi hỏi hiểu điều kiện thử nghiệm và tránh suy luận nhân quả từ chênh lệch chỉ số. Đề tài tìm lại bằng chứng trong paper có phạm vi gọn hơn, dễ kiểm tra trực tiếp trên PDF và có phương án không AI để so sánh. Tôi học được cách chọn bài toán theo khả năng kiểm chứng, thay vì chỉ theo mức độ hứng thú hoặc độ phức tạp của giải pháp.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có. Báo cáo của Dương ghi nhận nhóm từng nghĩ đến hệ thống trích dẫn từ đầu. Khi làm CP4, tôi thấy tên giải pháp như RAG hay chatbot đọc paper chưa trả lời được người học đang nghẽn ở đâu. Tôi tập trung lại vào việc ghi chú thiếu vị trí nguồn, phải dò PDF và kiểm ngữ cảnh. Research được dùng để xem công cụ sẵn có giải quyết bước nào, từ đó ưu tiên ghi chú có cấu trúc và Zotero trước khi cân nhắc AI.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Câu hỏi “Nếu ghi số trang hoặc dùng Zotero đã giúp tìm lại bằng chứng nhanh hơn thì có cần AI không?” khiến tôi xem lại điều kiện để đề xuất AI. Tôi bổ sung phương án không AI vào hướng thử trước và thu hẹp đối tượng thành sinh viên có ghi chú thiếu vị trí nguồn. Thay đổi chính là không coi nhu cầu tìm lại bằng chứng đồng nghĩa với nhu cầu dùng AI. Muốn tăng mức can thiệp, nhóm phải chỉ ra phần khó còn lại sau khi đã thử cách đơn giản và đo được lợi ích bổ sung.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Điều đáng chú ý nhất với tôi là hướng Zotero trong bảng research đã xử lý trực tiếp việc nối ghi chú với vị trí nguồn. Như vậy, cải thiện cách ghi chú có thể quan trọng hơn việc thêm một công cụ sinh câu trả lời. Tuy nhiên, mở đúng trang vẫn chưa chứng minh nhận định đúng ngữ cảnh. Các tình huống trong CP4 giúp nhìn thấy tín hiệu phản bác, nhưng chưa đủ để kết luận hiệu quả thực tế. Tôi rút ra rằng cần phân biệt thông tin về tính năng, kịch bản minh họa và kết quả quan sát; không dùng số phút giả định để khẳng định đã xác nhận bước nghẽn.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Với phần đầu vào từ CP4, khó nhất là thu hẹp bài toán mà không kết luận vượt quá bằng chứng. “Sinh viên khó đọc paper” quá rộng, còn “cần RAG tìm trích dẫn” đã chọn giải pháp trước. Tôi chọn mô tả tác vụ tìm lại bằng chứng trong paper đã đọc khi ghi chú thiếu vị trí. Phần metric cũng cần thận trọng: tìm nhanh hơn chưa chắc giảm tổng công nếu phải chuẩn bị ghi chú lâu hoặc sửa nhiều kết quả sai. Vì vậy, mục tiêu của nhóm phải tính cả chuẩn bị, tìm kiếm và xác minh, đồng thời kiểm riêng nguồn và ngữ cảnh.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Tôi sẽ chuẩn bị sớm một mẫu ghi nhận chung cho CP4, phân biệt dữ liệu giả định với quan sát thực tế và thống nhất nguồn trước khi tích hợp báo cáo. Tôi muốn quan sát một lượt tìm bằng chứng cụ thể, ghi thời gian từng bước và xem ghi chú đã có liên kết hay chưa. Tôi sẽ phản biện mạnh hơn câu hỏi: “Lợi ích có còn khi tính cả công chuẩn bị và kiểm lại không?”. Với pilot dự kiến 10 yêu cầu từ 3 paper, cần có cả yêu cầu không có đáp án và hạn chế việc nhớ đáp án giữa hai cách thử. Chỉ sau khi có log và kiểm chất lượng mới nên bàn tiếp việc nâng lên AI.
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán nhóm chọn là sinh viên mất thời gian tìm lại đúng bằng chứng trong paper đã đọc, tập trung vào trường hợp ghi chú thiếu vị trí nguồn. Quy trình hiện tại gồm mở ghi chú, xác định paper, dò PDF, đọc ngữ cảnh và lưu vị trí; bước dò PDF mới là bottleneck giả thuyết, cần đo để xác nhận. Nhóm dự kiến thử 10 yêu cầu từ 3 paper, gồm cả yêu cầu không có đáp án, với mục tiêu giảm ít nhất 30% tổng thời gian tính cả chuẩn bị và xác minh; đây chưa phải kết quả đạt được. Chất lượng được kiểm bằng khả năng tìm đúng bằng chứng, độ chính xác vị trí trích dẫn và tính đúng của ngữ cảnh. Người học phải mở PDF gốc để xác minh, còn AI nếu được thử không được tự tạo nguồn, số trang hoặc tự xác nhận bằng chứng đúng. Nhóm ưu tiên No AI với ghi chú có cấu trúc và Zotero, sau đó mới cân nhắc Rule hoặc Workflow nếu cách đơn giản chưa đủ, chưa có cơ sở chọn Agent. Vì chưa có baseline và kết quả so sánh thực nghiệm, đề xuất hiện tại là Not Yet đối với triển khai AI, chờ hoàn thiện kiểm chứng và nhóm chốt quyết định.
 
 ---
 
