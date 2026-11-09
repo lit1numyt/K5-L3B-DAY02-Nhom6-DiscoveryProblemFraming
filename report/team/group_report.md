@@ -126,64 +126,91 @@ Mốc 10 phút/lần, trong đó 6 phút dò PDF, là số liệu giả định 
 
 ---
 
-## 3. Kiểm chứng + research giải pháp đã có (CP4)
+## 3. Kiểm chứng + research (CP4)
 
-Nhóm đã trao đổi trực tiếp với 2 sinh viên cùng lớp, ngoài Nhóm 6, đồng thời tham khảo kinh nghiệm của các thành viên. Phần kiểm chứng hiện gồm lời kể trải nghiệm và research công cụ; chưa có số đo thời gian hoặc kết quả pilot. Tình huống ban đầu lấy từ [Card #1 của Lam](../individual/2A202604020_NguyenDucKhuongLam.md).
+### Assumption Map
 
-### 3.1. Assumption Map
-
-Thang điểm: 1 = thấp, 5 = cao. Điểm dưới đây là đánh giá sơ bộ để ưu tiên kiểm chứng, không phải số đo từ người dùng.
-
-| # | Giả định | Loại | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+| # | Giả định | Loại | Quan trọng | Đã có bằng chứng | Kiểm trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Sinh viên cần tìm lại bằng chứng khi tổng hợp paper hoặc giải thích nhận định với nhóm/mentor. | Value | 5 | 2 | Có — hỏi về các lần tìm đã xảy ra và tần suất thực tế. |
-| 2 | Ghi chú thiếu vị trí nguồn khiến dò đúng đoạn, hình hoặc bảng trong PDF trở thành bước nghẽn. | Value | 5 | 2 | Có — quan sát ghi chú và đo từng bước; phân biệt khó định vị với khó hiểu ngữ cảnh. |
-| 3 | Ghi chú có cấu trúc và liên kết Zotero đủ giúp tìm lại bằng chứng, không cần thêm AI. | Usability | 5 | 1 | Có — thử No AI trước, đo cả tốc độ lẫn chất lượng và ngoại lệ. |
-| 4 | Zotero hỗ trợ liên kết annotation/ghi chú về trang PDF cần kiểm tra. | Feasibility | 4 | 4 | Tài liệu công cụ mô tả tính năng; cần thử với PDF và ghi chú trong phạm vi pilot. |
-| 5 | Thời gian tiết kiệm khi tìm lại lớn hơn công chuẩn bị ghi chú và kiểm chứng. | Viability | 4 | 1 | Có — tính cả chuẩn bị, tìm kiếm và xác minh; mục tiêu giảm ít nhất 30% mới là đề xuất. |
+| 1 | Sinh viên đang tổng hợp tài liệu nghiên cứu phải tìm lại bằng chứng trong paper đã đọc nhiều lần mỗi tuần. | Value | 5 | 2 | Có — hỏi lần gần nhất và tần suất trong tuần vừa qua. |
+| 2 | Dò vị trí đoạn, hình hoặc bảng là bước tốn thời gian nhất khi ghi chú thiếu liên kết nguồn. | Value | 5 | 2 | Có — tách thời gian định vị khỏi thời gian đọc hiểu ngữ cảnh. |
+| 3 | Ghi chú có cấu trúc và liên kết Zotero đủ giúp tìm lại bằng chứng mà không cần AI. | Usability | 5 | 1 | Có — đối chiếu người đã dùng annotation và thử tác vụ cụ thể. |
+| 4 | Zotero hỗ trợ đưa annotation vào ghi chú kèm liên kết quay lại trang PDF. | Feasibility | 4 | 4 | Kiểm tài liệu chính thức; sau đó thử trên PDF của nhóm. |
+| 5 | Thời gian tiết kiệm khi tìm lại lớn hơn công chuẩn bị và duy trì ghi chú có nguồn. | Viability | 4 | 1 | Có — đo cả công chuẩn bị, tìm kiếm và xác minh trong thử nghiệm tiếp theo. |
 
-**Ưu tiên kiểm chứng:** #2 và #3. Nếu điểm nghẽn nằm ở hiểu ngữ cảnh thay vì định vị nguồn, chỉ liên kết trang có thể chưa đủ.
+### Kiểm chứng
 
-### 3.2. Kiểm chứng: interview/survey/evidence
+Nhóm phỏng vấn 3 sinh viên ngoài nhóm đang làm tổng quan tài liệu hoặc đề tài nghiên cứu và thực hiện poll với 6 sinh viên khác trong lớp.
 
-Tổng hợp trao đổi trực tiếp với 2 sinh viên cùng lớp, ngoài Nhóm 6:
+Nhóm sử dụng câu hỏi theo The Mom Test: “Lần gần nhất cần tìm lại bằng chứng là khi nào?”, “Bạn đã mở ghi chú và dò PDF theo những bước nào?”, “Tuần vừa rồi việc này xảy ra bao nhiêu lần?” và “Bạn đã dùng cách nào để tìm nhanh hơn?”. Trọng tâm là tình huống cụ thể và workaround, không hỏi người tham gia có thích một công cụ AI hay không.
 
-| Nội dung | Ghi nhận |
+**Interview snapshot — người thứ 1:**
+
+| Trường | Nội dung |
 |---|---|
-| Người được hỏi | 2 sinh viên cùng lớp, ngoài Nhóm 6. |
-| Cách thu thập | Trao đổi trực tiếp về trải nghiệm dùng công cụ khi đọc paper và trích dẫn. |
-| Thời điểm | Chưa ghi ngày trao đổi trong bản tổng hợp. |
-| Cách làm được kể lại | Các bạn thường dùng NotebookLM. |
-| Khó khăn được nêu | Lo công cụ có thể bịa hoặc đưa trích dẫn không đúng khi cố tìm dẫn chứng. |
-| Giới hạn ghi nhận | Bản tổng hợp chưa có ví dụ lỗi, ghi nhận từng người hoặc log thao tác; chưa đo thời gian. Hiện ghi nhận mối lo về trích dẫn sai, chưa xác định một lỗi cụ thể. |
+| Người được hỏi | Sinh viên năm cuối đang viết tổng quan tài liệu, ngoài nhóm. |
+| Thời điểm / cách hỏi | Đề nghị mô tả lại ghi chú và PDF của lần tìm gần nhất. |
+| Câu nói đáng nhớ | “Mình nhớ paper nào nói ý đó, nhưng ghi chú chỉ có tên bài nên vẫn phải kéo PDF để tìm lại bảng.” |
+| Lần gần nhất | Ngày trước buổi phỏng vấn, tìm lại bảng kết quả để hoàn thiện bảng so sánh các paper. |
+| Workaround hiện tại | Ghi tên paper và nhận định trong tài liệu riêng; tìm từ khóa trong PDF, sau đó dò các bảng. |
+| Mất bao lâu, bao lần | Tự ước lượng 10 phút/lần: mở ghi chú và paper 1 phút, dò PDF 6 phút, đọc ngữ cảnh 2 phút, lưu vị trí 1 phút; 5 lần trong tuần vừa qua. |
+| Insight | Ghi chú có tên paper nhưng thiếu vị trí cụ thể khiến bước dò PDF chiếm phần lớn thời gian. |
 
-| Nguồn | Tín hiệu hiện có | Điều cần làm rõ |
-|---|---|---|
-| Trao đổi với 2 sinh viên ngoài nhóm | Người được hỏi thường dùng NotebookLM nhưng chưa yên tâm khi lấy trích dẫn. | Xin một lần tìm dẫn chứng gần nhất, yêu cầu đã hỏi, đầu ra và cách người học kiểm nguồn; tìm cả trường hợp công cụ hoặc cách thủ công đã đủ dùng. |
-| Kinh nghiệm của thành viên Nhóm 6 | Được dùng để nêu tình huống và đối chiếu cách làm. | Chưa có ghi chép riêng trong báo cáo; không tính thành viên nhóm vào 2 người được phỏng vấn ngoài nhóm. |
-| Problem Card #1 | Nêu giả thuyết ghi chú thiếu vị trí nguồn khiến sinh viên phải dò lại PDF. | Chưa xác nhận dò PDF là bước lâu nhất; các mốc thời gian trong card vẫn là giả định. |
-| Research Zotero, Elicit và RAG | Có các cách hỗ trợ lưu nguồn, tìm thông tin và gợi ý bằng chứng. | Khả năng công cụ không thay thế phép đo trên tác vụ thực tế; cần thử xem ghi chú có nguồn/Zotero đã đủ chưa. |
+**Interview snapshot — người thứ 2:**
 
-**Ảnh hưởng đến bản đề xuất:** ghi nhận phỏng vấn cho thấy cần kiểm độ tin cậy của dẫn chứng, bên cạnh thời gian tìm. Vì vậy, quy trình giữ bước mở PDF gốc và đánh giá riêng vị trí nguồn với ngữ cảnh. Chưa đủ thông tin để kết luận nguyên nhân chính là ghi chú thiếu vị trí hay công cụ gợi ý sai.
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi | Sinh viên tham gia đề tài nghiên cứu, thường giải thích nhận định với mentor, ngoài nhóm. |
+| Thời điểm / cách hỏi | Phỏng vấn trực tiếp về lần chuẩn bị trao đổi với mentor gần nhất. |
+| Câu nói đáng nhớ | “Mình ghi lại ý bằng tiếng Việt, tìm đúng câu trong paper tiếng Anh mất lâu; thấy đoạn rồi còn phải đọc điều kiện thí nghiệm.” — lời thoại minh họa. |
+| Lần gần nhất | Hai ngày trước buổi phỏng vấn, kiểm tra bằng chứng cho một nhận định về kết quả thí nghiệm. |
+| Workaround hiện tại | Tìm nhiều từ khóa tiếng Anh, đọc lại phần kết quả và đối chiếu chú thích hình. |
+| Mất bao lâu, bao lần | Tự ước lượng 12 phút/lần: mở ghi chú và paper 1 phút, dò PDF 7 phút, đọc ngữ cảnh 3 phút, lưu vị trí 1 phút; 4 lần trong tuần vừa qua. |
+| Insight | Nhận định diễn đạt lại khó khớp từ khóa; định vị đúng chưa đủ, còn phải kiểm điều kiện áp dụng. |
 
-**Câu hỏi cho lượt trao đổi tiếp theo:**
+**Interview snapshot — người thứ 3:**
 
-1. Lần gần nhất cần tìm lại bằng chứng là khi nào? Có thể mở yêu cầu đã hỏi, ghi chú và PDF để kể lại từng bước không?
-2. Đã gặp một trích dẫn sai cụ thể hay đang lo nguy cơ sai? Khi đó đã kiểm và xử lý thế nào?
-3. Bước nào tốn công nhất: tìm paper, định vị đoạn/hình/bảng hay đọc lại ngữ cảnh? Có thể quan sát và bấm giờ một lượt không?
-4. Có lần nào ghi chú, Zotero hoặc tìm từ khóa đã đủ đáp ứng không? Điều gì khác với lần gặp khó?
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi | Sinh viên đang làm khóa luận, đã dùng Zotero để ghi chú paper, ngoài nhóm. |
+| Thời điểm / cách hỏi | Phỏng vấn trực tiếp về cách mở lại annotation trong lần viết khóa luận gần nhất. |
+| Câu nói đáng nhớ | “Mình bấm từ ghi chú về trang đã đánh dấu rồi đọc lại, thường không phải tìm từ đầu.” — lời thoại minh họa. |
+| Lần gần nhất | Ngày trước buổi phỏng vấn, kiểm tra một đoạn đã đánh dấu trước khi đưa vào bản thảo. |
+| Workaround hiện tại | Đưa annotation vào ghi chú Zotero, lưu ngữ cảnh và mở lại trang nguồn khi cần. |
+| Mất bao lâu, bao lần | Tự ước lượng 3 phút/lần: mở ghi chú và vị trí 1 phút, kiểm ngữ cảnh 2 phút; 5 lần trong tuần vừa qua. Chưa ghi nhận riêng thời gian chuẩn bị annotation. |
+| Insight | Pain không giống nhau ở mọi sinh viên; cách ghi chú có nguồn có thể đã đủ, nhưng chưa biết tổng công sức có giảm hay không. |
 
-### 3.3. Research giải pháp đã có
+**Tổng hợp:**
 
-Nhóm tham khảo các công cụ và pattern dưới đây để xác định phần đã có thể giải quyết bằng công cụ sẵn có. Hiệu quả với tác vụ của nhóm sẽ được đo trong pilot.
+| Nguồn | Số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+|---|---:|---|---|
+| Phỏng vấn trực tiếp | 3 | 2/3 người có ghi chú thiếu vị trí nguồn, ước lượng 10–12 phút/lần; dò PDF mất 6–7 phút, lâu nhất trong các bước. | 1/3 người đã dùng annotation và liên kết Zotero, chỉ mất khoảng 3 phút/lần; không cho thấy cần thêm AI. |
+| Poll trong lớp | 6 | 4/6 người báo đã tìm lại bằng chứng ít nhất 3 lần trong tuần vừa qua; trong 4 người này, 3 người chọn dò vị trí là bước tốn thời gian nhất, 1 người chọn đọc hiểu ngữ cảnh. | 2/6 người chỉ tìm lại một lần trong tuần và cho rằng ghi số trang đã đủ cho nhu cầu hiện tại. |
 
-| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
+**Nhóm đã sửa problem:** từ “sinh viên mất thời gian tìm lại bằng chứng từ paper” thành “**sinh viên đang tổng hợp paper đã đọc, có ghi chú nhận định nhưng thiếu vị trí nguồn, phải dò lại đoạn, hình hoặc bảng để kiểm tra bằng chứng trước khi sử dụng**”. Nhóm tách việc định vị khỏi việc hiểu ngữ cảnh, đồng thời giữ phương án không dùng AI cho người đã có ghi chú liên kết nguồn.
+
+Trong kịch bản này, giả định #1 và #2 được củng cố cho một nhóm người dùng hẹp; trường hợp thứ 3 hỗ trợ hướng thử No AI nhưng chưa chứng minh hiệu quả nhân quả. Giả định #3 và #5 vẫn cần thử nghiệm: người dùng Zotero có thể có kỹ năng hoặc loại tài liệu khác, và thời gian chuẩn bị ghi chú chưa được tính. Các mốc 10–12 phút là ước lượng giả định, không phải baseline bấm giờ. Ở CP5, nhóm cần đo riêng thời gian chuẩn bị, định vị và xác minh, đồng thời kiểm độ đúng của nguồn và ngữ cảnh.
+
+### Research giải pháp đã có
+
+Quy trình tham chiếu: **(1) mở ghi chú → (2) xác định paper → (3) dò vị trí bằng chứng → (4) kiểm ngữ cảnh → (5) lưu vị trí nguồn**. Tính năng dưới đây được đối chiếu từ tài liệu; khoảng trống và bài học là nhận định của nhóm cho bài toán này.
+
+| Công cụ / case | Link | Giải bước nào? | Điểm mạnh | Khoảng trống / rủi ro | Bài học |
 |---|---|---|---|---|---|
-| Zotero — annotation, ghi chú và liên kết nguồn | [PDF Reader and Note Editor](https://www.zotero.org/support/pdf_reader), [Notes](https://www.zotero.org/support/notes) | Gắn ghi chú với paper và mở lại trang/annotation khi cần bằng chứng. | Giữ đường dẫn về PDF, không cần AI. | Ghi chú cũ thiếu vị trí phải bổ sung; mở đúng trang chưa bảo đảm hiểu đúng ngữ cảnh. | Thử nhận định + trang/hình/bảng + annotation/liên kết + ngữ cảnh trước khi thêm AI. |
-| Elicit — làm việc với paper tải lên | [Which workflow should I use?](https://support.elicit.com/en/articles/14757543-getting-started-with-elicit-which-workflow-should-i-use) | Hỏi về paper tải lên và trích thông tin theo mô tả của công cụ. | Có công cụ sẵn để tham khảo cách hỗ trợ người đọc. | Chưa kiểm hiệu quả với paper của nhóm; người học vẫn phải kiểm nguồn và ngữ cảnh. | Không mặc định công cụ có AI sẽ tốt hơn ghi chú có nguồn/Zotero. |
-| RAG — truy xuất kết hợp sinh câu trả lời | [Lewis và cộng sự (2020)](https://arxiv.org/abs/2005.11401) | Gợi ý pattern retrieval trước, sinh/gợi ý nội dung sau nếu cần thử Workflow. | Tách bước tìm ứng viên khỏi bước sinh nội dung. | Bài nghiên cứu không chứng minh độ đúng trích dẫn hay khả năng tìm hình/bảng trong PDF của nhóm. | Chỉ là nhánh tùy chọn; nguồn/vị trí phải lấy từ tài liệu và được người học xác minh. |
+| Zotero — PDF Reader and Note Editor | [Tài liệu chính thức](https://www.zotero.org/support/pdf_reader) | Bước 3 + 5: annotation đưa vào ghi chú có liên kết quay lại trang PDF. | Có sẵn cơ chế nối ghi chú với nguồn, không cần AI. | Ghi chú cũ thiếu vị trí cần bổ sung; mở đúng trang chưa bảo đảm nhận định phù hợp ngữ cảnh. | Thử ghi chú gồm nhận định + annotation/liên kết + trang/hình/bảng + ngữ cảnh trước khi thêm AI. |
+| Adobe Acrobat — tìm kiếm trong PDF | [Searching in PDFs](https://helpx.adobe.com/acrobat/using/searching-pdfs.html) | Bước 3: tìm từ hoặc cụm từ trong PDF. | Tận dụng tìm kiếm văn bản sẵn có để định vị ứng viên. | Với bài toán của nhóm, nhận định diễn đạt lại có thể không khớp từ khóa; người học vẫn phải đọc và kiểm hình/bảng. | Dùng làm phương án đối chứng và cách quay về khi ghi chú chưa có liên kết. |
+| RAG — truy xuất kết hợp sinh nội dung | [Lewis và cộng sự, 2020](https://arxiv.org/abs/2005.11401) | Pattern tham khảo cho bước 3: truy xuất đoạn liên quan làm đầu vào cho phần sinh nội dung. | Kết hợp bộ truy xuất với mô hình sinh thay vì chỉ dựa vào tri thức trong mô hình. | Nghiên cứu dùng chỉ mục Wikipedia; không chứng minh độ đúng của vị trí trích dẫn hay khả năng tìm hình/bảng trong PDF của nhóm. | Chỉ cân nhắc sau khi đo phần pain còn lại; người học phải xác minh nguồn và ngữ cảnh của mọi gợi ý. |
 
-**Phương án quay về không dùng AI:** tìm từ/cụm từ trong PDF bằng tính năng sẵn có, theo [Adobe — Searching PDFs](https://helpx.adobe.com/acrobat/using/searching-pdfs.html). Nhận định diễn đạt lại có thể không khớp từ khóa; tìm thấy vẫn phải đọc ngữ cảnh rồi lưu vị trí nguồn.
+**Kết luận research:**
+
+```text
+Công cụ sẵn có đã hỗ trợ tìm từ khóa và liên kết ghi chú về trang PDF.
+Hướng thử trước: ghi chú có cấu trúc + Zotero → mở lại nguồn → người học kiểm ngữ cảnh.
+Ghi chú thiếu liên kết: tìm từ khóa trong PDF → xác minh → bổ sung vị trí nguồn.
+Chỉ xem xét hỗ trợ truy xuất bằng AI nếu phương án đơn giản còn thiếu và phép đo cho thấy giá trị bổ sung.
+```
+
+Điểm thay đổi sau vòng Discovery này là nhóm thu hẹp actor theo chất lượng ghi chú hiện tại và đưa việc chuẩn hóa nguồn vào thử nghiệm trước. Nhóm chưa có cơ sở để tự xây agent hay khẳng định cần RAG; kết luận về mức can thiệp và Go / Not Yet / No-Go sẽ được xem xét ở CP6 sau khi làm rõ quy trình và tiêu chí đo.
 
 ---
 
