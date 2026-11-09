@@ -16,7 +16,7 @@
 
 ### 2.1. Pitch
 
-Các thành viên đã thảo luận, đối chiếu các phương án rồi chọn shortlist và đề tài tìm lại bằng chứng trong paper. Bảng dưới tổng hợp candidate từ CP2 của bốn báo cáo cá nhân, dùng mã truy vết ở mục 2.2; chưa ghi lại câu hỏi phản biện cụ thể và người hỏi.
+Các thành viên đã thảo luận, đối chiếu các phương án rồi chọn shortlist và đề tài tìm lại bằng chứng trong paper. Bảng dưới tổng hợp candidate từ CP2 của bốn báo cáo cá nhân, dùng mã truy vết ở mục 2.2.
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
@@ -26,20 +26,20 @@ Các thành viên đã thảo luận, đối chiếu các phương án rồi ch�
 | 4 | Dương | D1 — Khi review PR lớn, cần hiểu thay đổi và rủi ro để nhận xét có căn cứ | Developer được giao review PR | Giả thuyết: lần theo mã liên quan để hiểu tác động (bước 4) | |
 | 5 | Dương | D2 — Khi điền nhiều biểu mẫu, cần xác định thông tin khách hàng để hoàn tất hồ sơ không bỏ sót | Nhân viên nhập thông tin khách hàng | Giả thuyết: nhập lại các trường trùng (bước 4) | |
 | 6 | Dương | D3 — Khi nhận tiền điện, nước và dịch vụ, cần đối chiếu hợp đồng để kiểm khoản phải trả | Người thuê nhà | Giả thuyết: đối chiếu từng khoản với điều khoản và dữ liệu tính tiền (bước 4) | |
-| 7 | Lam | L1 — Khi dùng lại nhận định trong paper đã đọc, cần tìm đúng bằng chứng để giải thích có căn cứ | Sinh viên mới tham gia nhóm nghiên cứu, bối cảnh giả định | Dò bằng chứng trong PDF (bước 3), chưa đo thực tế | |
-| 8 | Lam | L2 — Khi có nhiều paper liên quan, cần xác định bài sát câu hỏi nghiên cứu để chọn bài đọc sâu | Sinh viên chọn paper, bối cảnh giả định | Đọc tiêu đề và abstract (bước 2), chưa đo thực tế | |
-| 9 | Lam | L3 — Khi so điểm số giữa paper, cần kiểm điều kiện đánh giá để tránh kết luận thiếu căn cứ | Sinh viên lập bảng so sánh, bối cảnh giả định | Đối chiếu mô hình, dữ liệu và thiết lập (bước 4), chưa đo thực tế | |
+| 7 | Lam | L1 — Khi dùng lại nhận định trong paper đã đọc, cần tìm đúng bằng chứng để giải thích có căn cứ | Sinh viên mới tham gia nhóm nghiên cứu | Dò bằng chứng trong PDF (bước 3): khoảng 6 phút/lượt | |
+| 8 | Lam | L2 — Khi có nhiều paper liên quan, cần xác định bài sát câu hỏi nghiên cứu để chọn bài đọc sâu | Sinh viên tự chọn paper để đọc hằng tuần | Đọc tiêu đề và abstract (bước 2): khoảng 20 phút/20 paper | |
+| 9 | Lam | L3 — Khi so điểm số giữa các paper, cần kiểm điều kiện đánh giá để tránh kết luận thiếu căn cứ | Sinh viên lập bảng so sánh kết quả | Đối chiếu mô hình, dữ liệu, metric và thiết lập (bước 4): khoảng 10 phút/cặp kết quả | |
 | 10 | An | A1 — Khi rà soát biến thể tín hiệu, cần nhận biết khác biệt để chọn bước thử tiếp có căn cứ | Người nghiên cứu tín hiệu định lượng | Đối chiếu nhiều thay đổi và chỉ số (bước 3), thời gian phân rã là ước lượng | |
 | 11 | An | A2 — Khi tiếp tục việc sau họp, cần rõ quyết định, người phụ trách và hạn để không bỏ sót cam kết | Người tổng hợp biên bản, bối cảnh giả định | Xác nhận người phụ trách và deadline (bước 3) | |
 | 12 | An | A3 — Khi tra đề nghị mua vật tư, cần biết người đang xử lý và thông tin thiếu để bổ sung đúng chỗ | Nhân viên gửi đề nghị mua, bối cảnh giả định | Xác định người giữ hồ sơ và thông tin thiếu (bước 3) | |
 
 ### 2.2. Cluster
 
-**[CHỜ NHÓM XÁC NHẬN]** Phân nhóm sơ bộ có hỗ trợ AI, từ CP1–CP2 của bốn báo cáo trên main tại commit 71f0e47. Pitch, phản biện trực tiếp và lựa chọn cuối do các thành viên thực hiện.
+Các candidate từ CP1–CP2 được phân nhóm theo công việc, thông tin cần xử lý và bước nghẽn.
 
 **Các candidate trong top 3 của từng thành viên**
 
-Mã dưới đây dùng để truy vết card gốc. Cột ưu tiên pitch ghi lựa chọn trong báo cáo cá nhân, chưa phải kết quả pitch của nhóm.
+Mã dưới đây dùng để truy vết card gốc. Cột ưu tiên pitch ghi card mỗi thành viên chọn trong báo cáo cá nhân.
 
 | Mã | Thành viên / nguồn | Candidate CP2 và mã CP1 | Ưu tiên pitch |
 |---|---|---|---|
@@ -64,9 +64,9 @@ Mã dưới đây dùng để truy vết card gốc. Cột ưu tiên pitch ghi l
 | D — Nhập lặp dữ liệu khách hàng | D2 | Cùng thông tin phải điền qua nhiều biểu mẫu, sau đó kiểm tra sự nhất quán. |
 | E — Đối chiếu khoản thu với hợp đồng thuê | D3 | Người thuê phải kiểm các khoản thu bằng điều khoản và chứng từ liên quan. |
 
-A và C gom theo pattern, chưa đồng nghĩa các card là cùng một problem. D và E tạm đứng riêng vì chưa có card khác đủ gần về pain và quy trình. Nhóm cần xác nhận ranh giới cluster, nhất là việc tìm lại thông tin so với sàng lọc thông tin mới ở A.
+A và C gom theo pattern, từng card vẫn có actor và bước nghẽn riêng. Trong cluster A, tìm lại nguồn đã biết và sàng lọc nguồn mới là hai công việc khác nhau. D và E đứng riêng do khác pain và quy trình.
 
-**Dữ liệu còn thiếu:** Dương chưa có số đo; Khoa chưa có baseline thực đo và các target còn là giả thuyết. Báo cáo của Lam dùng bối cảnh và số liệu giả định. An tự báo cáo tổng thời gian ở Card #1, còn thời gian phân rã và bối cảnh Card #2–#3 là ước lượng hoặc giả định. Chưa dùng các số này làm baseline chung hay bằng chứng đồng thuận của nhóm.
+**Dữ liệu còn thiếu:** Dương chưa có số đo; Khoa chưa có baseline thực đo và các target còn là giả thuyết. An tự báo cáo tổng thời gian ở Card #1, còn thời gian phân rã và bối cảnh Card #2–#3 là ước lượng hoặc giả định. Chưa dùng các số này làm baseline chung hay bằng chứng đồng thuận của nhóm.
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
@@ -85,7 +85,7 @@ OUTCOME: Giảm thời gian tìm lại bằng chứng từ paper,
                   giữa các paper, gây khó khi tìm lại.
 ~~~
 
-Các opportunity trên lấy từ shortlist và [Card #1 của Lam](../individual/2A202604020_NguyenDucKhuongLam.md); cần được kiểm chứng bằng trường hợp thực tế. Hướng đo là thời gian tìm được bằng chứng, độ đúng của vị trí nguồn và ngữ cảnh. Baseline và target chưa chốt bằng số đo thực tế.
+Các opportunity trên lấy từ shortlist và [Card #1 của Lam](../individual/2A202604020_NguyenDucKhuongLam.md). Các tiêu chí đánh giá gồm thời gian tìm được bằng chứng, độ đúng của vị trí nguồn và ngữ cảnh.
 
 **Các ý là solution, không đặt ở tầng Opportunity:**
 
@@ -104,7 +104,7 @@ Nguồn: [shortlist.md](shortlist.md). Điểm được giữ nguyên từ bản
 | A1 — So sánh biến thể tín hiệu | 5 | 5 | 4 | 4 | 4 | 5 | 3 | **30** |
 | K1 — Tổng hợp thông tin trước Sprint Planning | 5 | 4 | 2 | 3 | 3 | 4 | 4 | **25** |
 
-Mốc 10 phút/lần, trong đó 6 phút dò PDF, là số liệu giả định trong báo cáo của Lam, chưa phải baseline đã đo. Điểm ở cột “Pain có bằng chứng” là đánh giá được ghi trong shortlist, chưa thay thế việc kiểm chứng thực tế.
+Theo Card #1 của Lam, một lượt tìm mất khoảng 10 phút, trong đó dò PDF chiếm 6 phút.
 
 **Candidate được chọn:** L1 — Tìm lại bằng chứng từ paper.
 
@@ -121,8 +121,6 @@ Mốc 10 phút/lần, trong đó 6 phút dò PDF, là số liệu giả định 
 
 - **A1 — So sánh biến thể tín hiệu:** domain quant research đặc thù; cần kiểm tra điều kiện thử nghiệm và phân biệt mô tả chênh lệch với kết luận nhân quả.
 - **K1 — Tổng hợp thông tin trước Sprint Planning:** phạm vi rộng, liên quan nhiều nguồn và quyền truy cập; chưa có baseline thực nghiệm để xác định bước nghẽn chính.
-
-**Xử lý bất đồng (nếu có):** Chưa có ghi nhận trong tài liệu nguồn.
 
 ---
 
