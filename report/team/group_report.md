@@ -26,9 +26,9 @@ Các thành viên đã thảo luận, đối chiếu các phương án rồi ch�
 | 4 | Dương | D1 — Khi review PR lớn, cần hiểu thay đổi và rủi ro để nhận xét có căn cứ | Developer được giao review PR | Giả thuyết: lần theo mã liên quan để hiểu tác động (bước 4) | |
 | 5 | Dương | D2 — Khi điền nhiều biểu mẫu, cần xác định thông tin khách hàng để hoàn tất hồ sơ không bỏ sót | Nhân viên nhập thông tin khách hàng | Giả thuyết: nhập lại các trường trùng (bước 4) | |
 | 6 | Dương | D3 — Khi nhận tiền điện, nước và dịch vụ, cần đối chiếu hợp đồng để kiểm khoản phải trả | Người thuê nhà | Giả thuyết: đối chiếu từng khoản với điều khoản và dữ liệu tính tiền (bước 4) | |
-| 7 | Lam | L1 — Khi dùng lại nhận định trong paper đã đọc, cần tìm đúng bằng chứng để giải thích có căn cứ | Sinh viên mới tham gia nhóm nghiên cứu | Dò bằng chứng trong PDF (bước 3): khoảng 6 phút/lượt | |
-| 8 | Lam | L2 — Khi có nhiều paper liên quan, cần xác định bài sát câu hỏi nghiên cứu để chọn bài đọc sâu | Sinh viên tự chọn paper để đọc hằng tuần | Đọc tiêu đề và abstract (bước 2): khoảng 20 phút/20 paper | |
-| 9 | Lam | L3 — Khi so điểm số giữa các paper, cần kiểm điều kiện đánh giá để tránh kết luận thiếu căn cứ | Sinh viên lập bảng so sánh kết quả | Đối chiếu mô hình, dữ liệu, metric và thiết lập (bước 4): khoảng 10 phút/cặp kết quả | |
+| 7 | Lam | L1 — Khi dùng lại nhận định trong paper đã đọc, cần tìm đúng bằng chứng để giải thích có căn cứ | Sinh viên mới tham gia nhóm nghiên cứu | Dò bằng chứng trong PDF (bước 3): khoảng 6 phút/lượt | Khoa: Nếu ghi vị trí nguồn và dùng Zotero đã đủ, còn bước nào cần AI? Tính cả công bổ sung ghi chú thì tổng thời gian có giảm không? |
+| 8 | Lam | L2 — Khi có nhiều paper liên quan, cần xác định bài sát câu hỏi nghiên cứu để chọn bài đọc sâu | Sinh viên tự chọn paper để đọc hằng tuần | Đọc tiêu đề và abstract (bước 2): khoảng 20 phút/20 paper | An: Làm sao kiểm tra việc giảm thời gian sàng lọc không làm bỏ sót paper phù hợp, kể cả trong nhóm bài bị loại? |
+| 9 | Lam | L3 — Khi so điểm số giữa các paper, cần kiểm điều kiện đánh giá để tránh kết luận thiếu căn cứ | Sinh viên lập bảng so sánh kết quả | Đối chiếu mô hình, dữ liệu, metric và thiết lập (bước 4): khoảng 10 phút/cặp kết quả | An: Nếu hai paper khác mô hình, dữ liệu hoặc metric, bảng đối chiếu sẽ ghi thế nào để tránh kết luận hơn/kém khi chưa đủ căn cứ? |
 | 10 | An | A1 — Khi rà soát biến thể tín hiệu, cần nhận biết khác biệt để chọn bước thử tiếp có căn cứ | Người nghiên cứu tín hiệu định lượng | Đối chiếu nhiều thay đổi và chỉ số (bước 3), thời gian phân rã là ước lượng | |
 | 11 | An | A2 — Khi tiếp tục việc sau họp, cần rõ quyết định, người phụ trách và hạn để không bỏ sót cam kết | Người tổng hợp biên bản, bối cảnh giả định | Xác nhận người phụ trách và deadline (bước 3) | |
 | 12 | An | A3 — Khi tra đề nghị mua vật tư, cần biết người đang xử lý và thông tin thiếu để bổ sung đúng chỗ | Nhân viên gửi đề nghị mua, bối cảnh giả định | Xác định người giữ hồ sơ và thông tin thiếu (bước 3) | |
@@ -104,17 +104,19 @@ Nguồn: [shortlist.md](shortlist.md). Điểm được giữ nguyên từ bản
 | A1 — So sánh biến thể tín hiệu | 5 | 5 | 4 | 4 | 4 | 5 | 3 | **30** |
 | K1 — Tổng hợp thông tin trước Sprint Planning | 5 | 4 | 2 | 3 | 3 | 4 | 4 | **25** |
 
-Theo Card #1 của Lam, một lượt tìm mất khoảng 10 phút, trong đó dò PDF chiếm 6 phút.
+Theo CP1–CP2 của Lam, thời gian tìm lại bằng chứng là 8–12 phút/lượt, khoảng 3 lượt/tuần; 2/3 lượt có ghi chú thiếu vị trí nguồn. Quy trình L1 dùng mốc 10 phút/lượt, trong đó dò PDF chiếm 6 phút; tổng thời gian cho 3 lượt tìm là khoảng 30 phút/tuần.
 
 **Candidate được chọn:** L1 — Tìm lại bằng chứng từ paper.
 
 **Job Story:** Khi cần dùng lại một nhận định từ paper đã đọc, tôi muốn tìm đúng đoạn, hình hoặc bảng chứa bằng chứng, để giải thích có căn cứ mà không phải đọc lại cả bài.
 
+Nhóm ưu tiên L1 trong ba card của Lam vì phạm vi giới hạn ở paper đã đọc và có thể đối chiếu trực tiếp bằng PDF. L2 phụ thuộc tiêu chí liên quan của câu hỏi nghiên cứu; L3 cần kiểm tra điều kiện đánh giá giữa hai paper trước khi kết luận có thể so sánh kết quả hay không.
+
 **Vì sao chọn:**
 
 - Phạm vi gọn trong một tác vụ: tìm đúng bằng chứng trong paper đã đọc.
 - Có thể đo thời gian tìm và kiểm tra trực tiếp vị trí nguồn, ngữ cảnh trong PDF.
-- Có phương án không dùng AI để đối chiếu: ghi số trang/hình/bảng, annotation và liên kết PDF trong Zotero.
+- Có phương án No AI cụ thể: ghi số trang/hình/bảng, annotation và liên kết PDF trong Zotero; từ đó kiểm tra lợi ích bổ sung của Rule, Workflow hoặc Agent.
 - Không cần tích hợp nhiều nguồn dữ liệu dự án. Candidate đạt 33 điểm, cao nhất trong shortlist.
 
 **Vì sao loại các candidate còn lại:**

@@ -26,8 +26,6 @@
 | 9 | Pain từ người khác | Khi nhận bản tổng hợp paper từ một thành viên khác, tôi muốn hiểu kết luận và căn cứ của họ, để tiếp tục đối chiếu mà không phải đọc lại từ đầu. | Thành viên nhận bản tổng hợp | Người nhận hỏi thêm 4 câu và mất 20 phút đọc lại 2 paper vì thiếu vị trí bằng chứng. |
 | 10 | Pain từ người khác | Khi xem phần chuẩn bị của sinh viên, tôi muốn biết em đã hiểu gì và còn vướng ở đâu, để góp ý đúng trọng tâm. | Mentor, sinh viên | Mentor hỏi làm rõ 3 lượt, mất 10 phút đầu trong buổi trao đổi 30 phút. |
 
-**Dùng AI:** AI hỗ trợ chỉnh Job Story, làm rõ actor và đề xuất số liệu; giữ nguyên 10 vấn đề ban đầu.
-
 ---
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
@@ -137,11 +135,11 @@ HIỆN TẠI — 25 phút/cặp kết quả
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
+| Pitch Problem Card | Chuẩn bị ba card L1–L3, ưu tiên L1 về tìm lại bằng chứng trong paper đã đọc. | L1 vào shortlist và được chọn với 33 điểm. |
+| Phản biện bài của bạn khác | Đặt câu hỏi cho An về A1: “Nếu một biến thể thay nhiều yếu tố, có đủ căn cứ kết luận yếu tố nào làm kết quả tốt hơn không?” | Tách việc mô tả chênh lệch chỉ số khỏi kết luận nhân quả khi đối chiếu A1. |
+| Nhận phản biện | Khoa hỏi: “Nếu ghi vị trí nguồn và dùng Zotero đã đủ, còn bước nào cần AI?”; An hỏi về bỏ sót paper và điều kiện so sánh. | Tôi giữ hướng thử No AI trước; làm rõ cách tính công ghi chú, cách kiểm tra cả bài giữ và bài loại, cùng giới hạn so sánh. |
+| Gom cluster / cây OST | Đối chiếu L1–L2 với cluster A, L3 với cluster B; rà cây OST của L1. | Phân biệt tìm lại nguồn đã đọc với sàng lọc nguồn mới; OST tập trung vào vị trí bằng chứng và ngữ cảnh. |
+| Chọn candidate problem | Tôi ưu tiên L1 vì phạm vi một paper đã đọc, bước nghẽn rõ và có thể kiểm bằng PDF gốc. | L1 được chọn làm đầu vào cho assumption map ở CP4 và quy trình trước/sau ở CP5. |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
 | Problem Statement | | |
@@ -154,8 +152,9 @@ HIỆN TẠI — 25 phút/cặp kết quả
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Rà soát 10 vấn đề, chỉnh Job Story và đề xuất số liệu. | Làm rõ actor ở #9–#10, phân biệt #1 với #2, gợi ý cách đo. | Một số gợi ý còn chung chung, chưa rõ người gặp vấn đề và bước đang vướng. | Tôi giữ 10 vấn đề ban đầu, làm rõ góc nhìn của người nhận bản tổng hợp và mentor. |
-| CP2 Problem Card | Nhờ AI hỗ trợ soạn 3 card và quy trình từ bản scan, rồi phản biện. | Làm rõ bước nghẽn, cách đo và phương án không dùng AI; lưu góp ý tại mục 3. | Có lúc chỉ chú trọng giảm thời gian, chưa xét công ghi chú và thông tin còn thiếu. | Tôi ưu tiên thử No AI, bổ sung kiểm tra chất lượng và giới hạn kết luận. |
+| CP1 Scan | Hỗ trợ diễn đạt Job Story và đề xuất số liệu. | Làm rõ actor ở #9–#10 và cách đo. | Một số mô tả còn chung chung. | Giữ 10 vấn đề, làm rõ actor và dấu hiệu. |
+| CP2 Problem Card | Hỗ trợ phác thảo card, quy trình và phản biện. | Làm rõ bottleneck và cách kiểm tra chất lượng. | Chưa tính đủ công ghi chú và thông tin thiếu. | Ưu tiên No AI; bổ sung kiểm nguồn và giới hạn so sánh. |
+| CP3 Câu hỏi / biên tập | Gợi ý câu hỏi theo vai Khoa/An, chỉnh lời văn. | Đối chiếu câu hỏi với card và lý do chọn L1. | Bỏ sót nhật ký CP3 cá nhân khi rà soát. | Bổ sung nhật ký; thống nhất câu hỏi và cách xử lý. |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
