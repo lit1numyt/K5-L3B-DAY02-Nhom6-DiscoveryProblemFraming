@@ -6,7 +6,7 @@
 ## 1. Thông tin nhóm
 
 - Tên nhóm: Nhóm 6 — L3B
-- Thành viên và phân công: xem [TEAM.md](../../TEAM.md). Khoa phụ trách CP5; Lam phụ trách CP4; An phụ trách CP6; Dương điều phối, tổng hợp nguồn, tích hợp báo cáo và làm slide.
+- Thành viên và phân công: xem [TEAM.md](../../TEAM.md). Khoa phụ trách CP5; An phụ trách CP4; Lam phụ trách CP6; Dương điều phối, tổng hợp nguồn, tích hợp báo cáo và làm slide.
 - Candidate problem được chọn (1 câu): Sinh viên mất thời gian tìm lại đúng đoạn, hình hoặc bảng trong paper đã đọc để xác minh nhận định.
 - Quyết định đề xuất: Not Yet — Chưa đủ bằng chứng để triển khai AI; ưu tiên thử No AI trước. Chờ nhóm xác nhận quyết định cuối.
 

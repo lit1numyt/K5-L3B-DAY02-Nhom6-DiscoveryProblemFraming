@@ -1,6 +1,6 @@
 # CP4 — Kiểm chứng và research giải pháp đã có
 
-Phụ trách: Nguyễn Đức Khương Lam.
+Phụ trách: Nguyễn Hữu An.
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 

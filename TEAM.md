@@ -14,8 +14,8 @@
 |---:|---|---|---|---|
 | 1 | Đồng Hữu Nguyên Khoa | 2A202604000 | Phụ trách CP5: quy trình trước/sau và Problem Statement v0 | [lit1numyt](https://github.com/lit1numyt) |
 | 2 | Chu Nguyễn Tùng Dương | 2A202604016 | Điều phối, chia công việc, tổng hợp nguồn CP4–CP6, tích hợp báo cáo và chuẩn bị slide | [ChuTungDuongg](https://github.com/ChuTungDuongg) |
-| 3 | Nguyễn Hữu An | 2A202604024 | Phụ trách CP6: mức can thiệp, Problem Statement v1, eval và đề xuất quyết định | [AnnNguy3n](https://github.com/AnnNguy3n) |
-| 4 | Nguyễn Đức Khương Lam | 2A202604020 | Phụ trách CP4: assumption map, kiểm chứng và research | [RachalHys](https://github.com/RachalHys) |
+| 3 | Nguyễn Hữu An | 2A202604024 | Phụ trách CP4: assumption map, kiểm chứng và research | [AnnNguy3n](https://github.com/AnnNguy3n) |
+| 4 | Nguyễn Đức Khương Lam | 2A202604020 | Phụ trách CP6: mức can thiệp, Problem Statement v1, eval và đề xuất quyết định | [RachalHys](https://github.com/RachalHys) |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -26,12 +26,12 @@ Phần kiểm chứng có trao đổi trực tiếp với 2 bạn cùng lớp ng
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | Cả bốn thành viên | Dương điều phối và tổng hợp | [Pitch, cluster, OST và shortlist](report/team/group_report.md#2-hội-tụ-nhóm-cp3) |
-| CP4 — Kiểm chứng | Nguyễn Đức Khương Lam | Dương tổng hợp tài liệu | [Assumption map và ghi nhận trao đổi với 2 sinh viên ngoài nhóm](report/team/group_report.md#3-kiểm-chứng--research-giải-pháp-đã-có-cp4) |
-| CP4 — Research | Nguyễn Đức Khương Lam | Dương tổng hợp nguồn | [Research giải pháp đã có](report/team/group_report.md#33-research-giải-pháp-đã-có) |
+| CP4 — Kiểm chứng | Nguyễn Hữu An | Dương tổng hợp tài liệu | [Assumption map và ghi nhận trao đổi với 2 sinh viên ngoài nhóm](report/team/group_report.md#3-kiểm-chứng--research-giải-pháp-đã-có-cp4) |
+| CP4 — Research | Nguyễn Hữu An | Dương tổng hợp nguồn | [Research giải pháp đã có](report/team/group_report.md#33-research-giải-pháp-đã-có) |
 | CP5 — Quy trình trước/sau | Đồng Hữu Nguyên Khoa | Dương tích hợp báo cáo | [Quy trình và before/after](report/team/group_report.md#4-quy-trình-trướcsau-cp5) |
 | CP5 — Problem Statement v0 | Đồng Hữu Nguyên Khoa | Dương tích hợp báo cáo | [Problem Statement v0](report/team/group_report.md#5-problem-statement-v0-cp5) |
-| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Hữu An | Dương tổng hợp nội dung | [So sánh mức can thiệp](report/team/group_report.md#6-mức-can-thiệp-ai-cp6), [v1 và eval](report/team/group_report.md#7-problem-statement-v1--tiêu-chí-đánh-giá-cp6) |
-| CP6 — Quyết định | Nguyễn Hữu An chuẩn bị; cả nhóm xác nhận | Dương ghi nhận vào bản tổng hợp | [Bốn rủi ro và đề xuất Not Yet đối với triển khai AI](report/team/group_report.md#8-quyết-định-cp6) |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Đức Khương Lam | Dương tổng hợp nội dung | [So sánh mức can thiệp](report/team/group_report.md#6-mức-can-thiệp-ai-cp6), [v1 và eval](report/team/group_report.md#7-problem-statement-v1--tiêu-chí-đánh-giá-cp6) |
+| CP6 — Quyết định | Nguyễn Đức Khương Lam chuẩn bị; cả nhóm xác nhận | Dương ghi nhận vào bản tổng hợp | [Bốn rủi ro và đề xuất Not Yet đối với triển khai AI](report/team/group_report.md#8-quyết-định-cp6) |
 | Tổng hợp báo cáo và slide | Chu Nguyễn Tùng Dương | Khoa, Lam, An theo phần phụ trách | [Báo cáo nhóm](report/team/group_report.md), [slide đang lưu trong repo](report/assets/cp6-paper-evidence-6min.pptx) |
 
 ## Cá nhân

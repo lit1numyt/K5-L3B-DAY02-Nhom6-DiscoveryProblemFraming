@@ -1,6 +1,6 @@
 # CP6 — Mức can thiệp, Problem Statement v1 và quyết định
 
-Phụ trách: Nguyễn Hữu An.
+Phụ trách: Nguyễn Đức Khương Lam.
 
 ## 6. Mức can thiệp AI (CP6)
 
