@@ -36,7 +36,7 @@ Phần kiểm chứng có trao đổi trực tiếp với 2 bạn cùng lớp ng
 
 ## Cá nhân
 
-Mỗi thành viên tự ghi đóng góp và điều mình học được. Ba thành viên còn lại bổ sung mục riêng theo mẫu ở cuối file.
+Mỗi thành viên tự ghi đóng góp và điều mình học được. Các thành viên chưa có mục riêng bổ sung theo mẫu ở cuối file.
 
 ### ChuNguyenTungDuong-2A202604016
 
@@ -61,6 +61,35 @@ Mỗi thành viên tự ghi đóng góp và điều mình học được. Ba th�
 **Điều mình học được từ phần nhóm:**
 
 - Tôi học thêm cách làm việc nhóm qua việc thảo luận, đối chiếu đề tài và xem xét tính khả thi. Nếu làm lại, tôi muốn nhóm lập kế hoạch rõ ràng để đo hiệu quả của từng cách tiếp cận.
+
+### NguyenHuuAn-2A202604024
+
+**Họ và tên:** Nguyễn Hữu An · **MSSV:** 2A202604024.
+
+**Phần việc phụ trách:**
+
+- Phụ trách CP4: assumption map, tổng hợp nội dung kiểm chứng và research giải pháp đã có; cập nhật phần CP4 trong báo cáo nhóm.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Chuẩn bị và trình bày candidate so sánh biến thể alpha; tham gia thảo luận, chấm điểm shortlist và chọn đề tài tìm lại bằng chứng trong paper.
+- Soạn bản nháp CP4, sau đó chỉnh cấu trúc theo bài mẫu: bảng giả định, interview snapshot, tổng hợp tín hiệu xác nhận/phản bác và kết luận research.
+- Tổng hợp Zotero, Adobe Acrobat và RAG theo bước quy trình, điểm mạnh, khoảng trống và bài học cho nhóm; đề xuất thử ghi chú có cấu trúc và liên kết nguồn trước.
+- Thu hẹp đối tượng về sinh viên có ghi chú thiếu vị trí nguồn; tách khó định vị bằng chứng khỏi khó hiểu ngữ cảnh, cung cấp đầu vào cho CP5–CP6.
+- Cập nhật CP4 trong báo cáo nhóm; nêu rõ thời gian minh họa chưa phải baseline bấm giờ và cần tính cả công chuẩn bị, tìm kiếm, xác minh trước khi kết luận hiệu quả.
+- Hoàn thiện báo cáo cá nhân, gồm Problem Cards, nhật ký đóng góp, bảng dùng AI và reflection; ghi lại cơ sở ủng hộ hướng No AI First và đề xuất Not Yet của nhóm.
+
+**Bằng chứng** (phần nào trong báo cáo, file hoặc commit):
+
+- [CP4 — phần phụ trách](report/team/CP4.md); commit `169d192` tạo bản nháp CP4.
+- [CP4 trong báo cáo nhóm](report/team/group_report.md#3-kiểm-chứng--research-cp4); commit `f965ab5` chỉnh CP4 và nội dung tương ứng trong báo cáo nhóm. Bản đồng bộ tiếp theo do Dương thực hiện ở commit `1cd4162`.
+- [Báo cáo cá nhân — phần tham gia](report/individual/2A202604024_NguyenHuuAn.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7); các commit `04ed64c`, `42c019e` và `bd6606e` ghi nhận việc tạo, cập nhật báo cáo cá nhân.
+
+**Điều mình học được từ phần nhóm:**
+
+- Tôi học cách chọn bài toán theo khả năng kiểm chứng và phạm vi phù hợp với nhóm, thay vì chỉ chọn vấn đề mình quen thuộc.
+- Research giúp tôi nhận ra công cụ có sẵn và cách ghi chú có nguồn có thể xử lý trực tiếp vấn đề; chưa cần chọn AI khi chưa thử phương án đơn giản.
+- Tôi cần phân biệt kịch bản minh họa với bằng chứng thực nghiệm, đo cả công chuẩn bị và xác minh, đồng thời kiểm đúng nguồn và ngữ cảnh trước khi đánh giá hiệu quả.
 
 ### Mẫu để thành viên tự bổ sung
 
