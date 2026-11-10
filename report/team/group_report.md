@@ -309,20 +309,20 @@ Vị trí nguồn phải đến từ PDF/metadata truy xuất, không để mô 
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Phân loại ban đầu là **mơ hồ thấp, phức tạp thấp** khi chỉ tìm lại một bằng chứng trong paper đã đọc và có PDF gốc. Đầu vào và thứ tự bước khá rõ; phần cần cân nhắc nằm ở việc bằng chứng có thật sự hỗ trợ nhận định trong đúng ngữ cảnh hay không.
+Đề xuất xếp bài toán vào ô **mơ hồ thấp, phức tạp cao** theo tiêu chí của worksheet: có 5 bước nối tiếp, bước sau phụ thuộc bước trước. Độ mơ hồ thấp vì paper và nhận định đã xác định, kết quả được kiểm bằng nguồn và ngữ cảnh trong PDF. Các bước đã rõ nên chưa cần Agent; nhóm vẫn thử No AI trước.
 
-**Điểm cần làm rõ:** quy trình có 5 bước nối tiếp, trong khi worksheet dùng số bước và mức phối hợp để xét độ phức tạp. Nhóm cần rà lại cách xếp ô trước khi chốt phân loại.
+**Nhóm cần rà lại** cách xếp ô trước khi chốt; phạm vi ở đây là tìm lại bằng chứng, không phải toàn bộ việc đọc và tổng hợp paper.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** | Ghi chú có cấu trúc: nhận định, paper, trang/hình/bảng, annotation/liên kết và ngữ cảnh; dùng Zotero mở lại nguồn | Người học tìm lại và xác minh được bằng chứng với tổng công phù hợp | Công chuẩn bị, thiếu/sai liên kết, hiểu sai ngữ cảnh | Ưu tiên thử trước; chưa triển khai |
+| **No AI** | Ghi chú có cấu trúc: nhận định, paper, trang/hình/bảng, annotation/liên kết và ngữ cảnh; dùng Zotero mở lại nguồn | Người học tìm lại và xác minh được bằng chứng với tổng thời gian hợp lý | Công chuẩn bị, thiếu/sai liên kết, hiểu sai ngữ cảnh | Ưu tiên thử trước; chưa triển khai |
 | **Rule** | Keyword search hoặc BM25 trong paper đã chọn | No AI còn nghẽn và tìm kiếm theo quy tắc đủ đáp ứng | Nhận định diễn đạt lại không khớp từ khóa; kết quả liên quan nhưng chưa đủ căn cứ | Chỉ thử khi cần; nếu đủ thì dừng ở mức này |
 | **Workflow** | Retrieval → AI gợi ý đoạn cùng vị trí nguồn → người học mở PDF xác minh → lưu kết quả | No AI/Rule chưa đủ và thử nghiệm cho thấy lợi ích về tổng thời gian, chất lượng | Trích dẫn sai, gợi ý không hỗ trợ nhận định, tăng công kiểm | Tùy chọn, chưa triển khai |
 | **Agent** | AI tự chọn công cụ/nguồn và bước tìm tiếp theo | Chỉ cân nhắc nếu có bằng chứng cần quyền tự quyết vượt Workflow | Khó kiểm nguồn, mở rộng phạm vi và tăng chi phí | Chưa có cơ sở để chọn |
 
-**Mức chọn để thử trước: No AI First.** Ghi chú có nguồn và liên kết Zotero xử lý trực tiếp giả thuyết thiếu vị trí. Người học vẫn kiểm ngữ cảnh và quay về tìm thủ công khi liên kết lỗi. Cách này cũng tốn công chuẩn bị, nên chưa kết luận hiệu quả trước khi đo.
+**Mức chọn để thử trước: No AI First.** Ghi chú có nguồn và liên kết Zotero giúp người học mở lại vị trí bằng chứng. Người học vẫn kiểm ngữ cảnh và quay về tìm thủ công khi liên kết lỗi. Cách này cũng tốn công chuẩn bị, nên chưa kết luận hiệu quả trước khi đo.
 
 **Vì sao không chọn mức đơn giản hơn / cao hơn:** sửa cách ghi chú và dùng công cụ sẵn có là điểm bắt đầu đơn giản nhất. Chỉ nâng mức khi cách trước chưa đủ; không thêm AI nếu No AI/Rule đã giải quyết được tác vụ. Các bước hiện đã rõ, chưa có lý do giao quyền tự quyết cho Agent.
 
@@ -344,7 +344,7 @@ Không bắt buộc với mức No AI. Nếu thử Workflow, cần làm rõ ngư
 | **Quy trình** | Ghi chú → xác định paper → dò PDF → đọc ngữ cảnh → lưu vị trí nguồn. Phương án thử trước: structured notes/Zotero → mở liên kết → sinh viên kiểm ngữ cảnh → lưu bằng chứng đúng vị trí. |
 | **Bottleneck** | Khó tìm lại đúng đoạn, hình hoặc bảng khi ghi chú thiếu vị trí nguồn, theo CP4. Cần đo từng bước để xác định mức độ, tách khó định vị khỏi khó hiểu ngữ cảnh. |
 | **Impact** | CP4 ghi nhận việc dò lại nguồn và tần suất do người tham gia tự báo cáo. Chưa có baseline bấm giờ, phép đo lỗi ngữ cảnh hoặc tổng công chuẩn bị; chưa thể kết luận hiệu quả của No AI hay nhu cầu bổ sung AI. |
-| **Success Metric** (baseline → target, cách đo) | Baseline: chưa có số đo thực nghiệm. Pilot dự kiến: 10 yêu cầu từ 3 paper được phép sử dụng, có cả yêu cầu không có đáp án. Target đề xuất: giảm ít nhất 30% tổng thời gian của No AI so với cách tìm hiện tại, tính cả chuẩn bị, tìm kiếm và xác minh, không giảm chất lượng. Đo retrieval time, evidence hit rate, citation accuracy và context correctness theo mục 7.3–7.4; báo cả tử số/mẫu số, ngoại lệ và lượt thất bại. |
+| **Success Metric** (baseline → target, cách đo) | Mốc tham chiếu từ L1: khoảng 10 phút/lượt. Pilot dự kiến gồm 10 yêu cầu từ 3 paper: 8 có đáp án, 2 không có đáp án. Mục tiêu: tối đa 3 phút/lượt có đáp án; giảm ít nhất 30% tổng thời gian, tính cả chuẩn bị, tìm kiếm và xác minh, không giảm chất lượng. Đo baseline và No AI theo mục 7.3–7.4, tính cả ngoại lệ và lượt thất bại. |
 | **Boundary** | Người học mở PDF gốc để kiểm nguồn, bằng chứng và ngữ cảnh trước khi chấp nhận. AI không tự tạo trích dẫn, bịa nguồn/số trang hoặc tự xác nhận độ đúng. Thiếu căn cứ thì ghi chưa tìm thấy và kiểm thủ công; không dùng nhận định chưa xác minh. |
 | **AI intervention point** | Không có trong phương án No AI. Nhánh Workflow chỉ là tùy chọn khi mức đơn giản chưa đủ. |
 | **Mức chọn** | No AI First để kiểm chứng; chưa triển khai AI. |
@@ -361,23 +361,23 @@ Không bắt buộc với mức No AI. Nếu thử Workflow, cần làm rõ ngư
 
 ### 7.3. Tiêu chí đánh giá
 
-Dùng 5 tiêu chí dưới đây để đánh giá No AI và so sánh với mức cao hơn nếu thử tiếp. Ngưỡng chất lượng sẽ được chốt trước pilot.
+Dùng 5 tiêu chí dưới đây để đánh giá No AI, chấm riêng cho từng người thử. Các ngưỡng là đề xuất cho pilot, nhóm cần xác nhận trước khi thử.
 
 | # | Tiêu chí | Cách đo / đạt khi | Không đạt / cần ghi nhận |
 |---:|---|---|---|
-| 1 | Retrieval time | Bấm giờ từ yêu cầu đến khi tìm được bằng chứng; báo trung vị thời gian mỗi yêu cầu, ghi riêng công xác minh | Chưa tìm được vẫn ghi thời gian và trạng thái; không bỏ khỏi log hoặc gán thời gian bằng 0 |
-| 2 | Evidence hit rate | Số yêu cầu có đáp án tìm được bằng chứng hợp lệ / tổng yêu cầu có đáp án | Chỉ trùng từ khóa nhưng không hỗ trợ nhận định, hoặc bỏ sót bằng chứng; chất lượng không được giảm so với baseline |
-| 3 | Citation accuracy | Số vị trí nguồn đúng / tổng trích dẫn đã lưu; đối chiếu paper và trang/đoạn/hình/bảng | Nhầm paper, vị trí, phiên bản hoặc nguồn không tồn tại |
-| 4 | Context correctness | Số nhận định dùng đúng điều kiện và giới hạn / tổng nhận định đã lưu | Đúng trang nhưng diễn giải vượt bằng chứng hoặc bỏ điều kiện áp dụng |
+| 1 | Thời gian hoàn tất lượt tìm | Từ mở ghi chú đến kiểm PDF và lưu nguồn; mỗi lượt trong 8 yêu cầu có đáp án tối đa 3 phút, tính cả lượt thất bại | Có lượt vượt 3 phút; không chỉ tính các lượt nhanh hoặc bỏ lượt thất bại |
+| 2 | Evidence hit rate | Tìm đúng bằng chứng cho ít nhất 7/8 yêu cầu có đáp án và không thấp hơn baseline | Dưới 7/8, thấp hơn baseline, hoặc chấp nhận đoạn không hỗ trợ nhận định |
+| 3 | Citation accuracy | 100% trích dẫn được chấp nhận đúng paper và vị trí trang/đoạn/hình/bảng | Có trích dẫn được chấp nhận nhưng sai paper, phiên bản hoặc vị trí |
+| 4 | Context correctness | 100% nhận định được chấp nhận giữ đúng điều kiện và giới hạn của bằng chứng | Có nhận định được chấp nhận nhưng bỏ điều kiện hoặc khái quát vượt bằng chứng |
 | 5 | Tổng thời gian | Mục tiêu đề xuất giảm ít nhất 30% so với baseline, gồm công chuẩn bị + tìm kiếm + xác minh | Nhanh ở bước tìm nhưng tổng công không đạt mục tiêu, hoặc chất lượng giảm |
 
-Với yêu cầu không có đáp án, chấm riêng việc nhận ra thiếu căn cứ và số gợi ý sai; không đưa vào mẫu số evidence hit rate của yêu cầu có đáp án. Báo tử số/mẫu số cho các tỷ lệ; mẫu số bằng 0 thì ghi không áp dụng. Một kết quả chỉ được chấp nhận sau khi người học kiểm cả nguồn, bằng chứng và ngữ cảnh.
+Với 2 yêu cầu không có đáp án, cả hai phải được ghi là chưa tìm thấy/không đủ căn cứ, không chấp nhận bằng chứng sai. Giới hạn 15 phút/yêu cầu cho cả hai phương án; hết giờ vẫn tính thời gian và ghi trạng thái. Báo tử số/mẫu số cho các tỷ lệ; không có đầu ra được chấp nhận thì ghi không áp dụng, không tính là đạt chất lượng. Mỗi kết quả đều được đối chiếu với PDF và đáp án tham chiếu.
 
 ### 7.4. Kế hoạch đo — chưa có kết quả thực nghiệm
 
-1. Chuẩn bị **10 yêu cầu từ 3 paper** được phép sử dụng, có cả yêu cầu không có đáp án. Tạo đáp án tham chiếu gồm đoạn/hình/bảng, vị trí và giới hạn áp dụng; người đọc kiểm PDF trước.
+1. Chuẩn bị **10 yêu cầu từ 3 paper** được phép sử dụng, gồm 8 yêu cầu có đáp án và 2 yêu cầu không có đáp án. An chuẩn bị đáp án tham chiếu gồm đoạn/hình/bảng, vị trí và giới hạn áp dụng, giữ riêng khi Lam và Khoa thực hiện lượt tìm.
 2. Đo baseline bằng cách tìm thủ công hiện tại. Đo No AI với ghi chú có cấu trúc/Zotero; tính công chuẩn bị cho tập paper và thời gian xử lý toàn bộ yêu cầu, kể cả xác minh và fallback.
-3. Đổi thứ tự phương án giữa người thử hoặc dùng tác vụ tương đương để giảm ảnh hưởng nhớ đáp án. Ghi log từng yêu cầu, lỗi bỏ sót/nhận nhầm và kết quả kiểm ngữ cảnh.
+3. Lam thử cách hiện tại trước, Khoa thử No AI trước; mỗi người thực hiện cả hai phương án trên 10 yêu cầu. Ghi riêng các lượt đã nhớ vị trí nguồn, vì việc nhớ đáp án cũng có thể làm giảm thời gian tìm.
 4. Gọi B là tổng thời gian baseline đã đo, T là tổng thời gian No AI gồm chuẩn bị. Mục tiêu đề xuất là T ≤ 0,70 × B (B > 0), đồng thời không giảm chất lượng. Chưa có giá trị B hoặc T thực nghiệm.
 5. Nếu No AI/Rule chưa đủ mới cân nhắc Workflow và so với phương án đơn giản tốt nhất. Mười yêu cầu chỉ giúp phát hiện lỗi ban đầu, chưa đủ suy rộng hiệu quả hoặc độ tin cậy cho nhiều người dùng.
 
@@ -386,36 +386,36 @@ Với yêu cầu không có đáp án, chấm riêng việc nhận ra thiếu c�
 | Baseline, thời gian từng bước, công chuẩn bị | [CẦN ĐO] — chưa có baseline thực nghiệm |
 | Bộ yêu cầu, đáp án tham chiếu và log thử | Chưa có bộ thử/log đính kèm; cần nhóm chuẩn bị trước pilot |
 | Target giảm ít nhất 30% | Mục tiêu thử nghiệm đề xuất, không phải kết quả |
-| Thời điểm, người thực hiện, người kiểm và ngưỡng chất lượng | [CẦN NHÓM XÁC NHẬN] trước khi chạy |
+| Thời điểm, người thực hiện và người kiểm | Dự kiến trong 1 tuần sau khi nhóm xác nhận kế hoạch: Lam và Khoa thực hiện, ghi log riêng; An đối chiếu PDF theo mục 7.3. [CẦN NHÓM XÁC NHẬN] |
 
 ## 8. Quyết định (CP6)
 
 ### 8.1. Bốn rủi ro
 
-Đánh giá rủi ro khi cân nhắc triển khai AI:
+Đánh giá rủi ro của pilot No AI với ghi chú có cấu trúc và Zotero:
 
 | Rủi ro | Câu hỏi | Mức độ | Lý do / bằng chứng hiện có |
 |---|---|---|---|
-| **Value** | Pain có thật và đủ đáng giải quyết không? | Cao | CP4 có 3 phỏng vấn và poll 6 người trong giờ học: có người khó dò nguồn, cũng có người thấy annotation hoặc số trang đã đủ. Tần suất là tự báo cáo; chưa có log bấm giờ và phép so sánh tổng công để chứng minh giá trị bổ sung của AI. |
-| **Usability** | Người học có dùng và kiểm kết quả được không? | Trung bình | Công tạo ghi chú và kiểm lại có thể lớn; người học phải hiểu và giữ đúng ngữ cảnh. |
-| **Feasibility** | Có truy xuất được bằng chứng trong phạm vi dữ liệu không? | Trung bình | PDF scan, hình và bảng có thể khó tìm; chưa có thử nghiệm. Pilot ban đầu ưu tiên PDF tìm được văn bản, trường hợp khó kiểm thủ công hoặc ghi ngoài phạm vi. |
-| **Viability** | Quyền dùng tài liệu, chi phí và vận hành có phù hợp không? | Trung bình | Cần kiểm quyền sử dụng paper và tổng chi phí/công chuẩn bị; chưa có số đo để kết luận. |
+| **Value** | Ghi chú có nguồn có giảm công tìm lại không? | Trung bình | CP4 ghi nhận 2/3 người thiếu vị trí nguồn; người đã dùng annotation ước lượng khoảng 3 phút/lượt. Có cơ sở thử, nhưng chưa biết lợi ích khi tính cả công ghi chú. |
+| **Usability** | Người học có duy trì ghi chú và kiểm đúng ngữ cảnh không? | Trung bình | Cần thêm thao tác ghi nguồn khi đọc; liên kết đúng vẫn phải đi kèm kiểm ngữ cảnh. |
+| **Feasibility** | Công cụ có đáp ứng phạm vi thử không? | Thấp | CP4 cho thấy Zotero đã hỗ trợ annotation và liên kết PDF. Pilot ưu tiên PDF tìm được văn bản; nguồn lỗi hoặc hình/bảng khó tìm được kiểm thủ công. |
+| **Viability** | Tổng công và việc dùng tài liệu có phù hợp không? | Trung bình | Dùng công cụ sẵn có và paper được phép sử dụng; cần đo công chuẩn bị để biết có tiết kiệm khi duy trì cách ghi chú này không. |
 
 ### 8.2. Kết luận
 
-**Đề xuất: Not Yet — Chưa đủ bằng chứng để triển khai AI.** Bước trước mắt là hoàn thiện kiểm chứng và thử No AI. Quyết định cuối sẽ được nhóm chốt sau khi xem kết quả.
+**Đề xuất: Go với pilot No AI; Not Yet đối với triển khai AI.** Go chỉ áp dụng cho kế hoạch thử nhỏ, không phải triển khai rộng. Nhóm cần xác nhận kế hoạch trước khi thực hiện.
 
-**Lý do:** CP4 ghi nhận khó khăn của người có ghi chú thiếu vị trí nguồn, đồng thời có trường hợp cách ghi chú hiện tại đã đủ. Các ước lượng thời gian chưa thay thế baseline bấm giờ; chưa có phép so sánh cho thấy No AI/Rule không đủ. Vì vậy, kết quả kiểm chứng hiện tại giúp thu hẹp problem nhưng chưa đủ để triển khai AI.
+**Lý do:** pilot No AI không có rủi ro mức Cao, dùng tính năng sẵn có và có bước kiểm PDF. Việc thử nhằm đánh giá tổng công và khả năng duy trì ghi chú. Chưa có phép so sánh cho thấy No AI/Rule không đủ nên phần triển khai AI vẫn giữ Not Yet.
 
-**Bước tiếp theo:** quan sát tác vụ thật của người có ghi chú thiếu vị trí nguồn → đo baseline và công chuẩn bị → thử No AI → so sánh kết quả; ghi riêng trường hợp đã có annotation để tránh gộp hai cách ghi chú khác nhau. Pilot dự kiến gồm **10 yêu cầu từ 3 paper**, có yêu cầu không có đáp án; cách đo ở mục 7.4. Nếu còn bottleneck, thử Rule; nếu Rule đủ thì dừng ở đó, nếu chưa đủ mới cân nhắc Workflow để so sánh. Lịch, người thực hiện và người kiểm nguồn sẽ được phân công trước pilot.
+**Bước tiếp theo:** thử trong 1 tuần với **10 yêu cầu từ 3 paper** theo mục 7.4; so sánh tổng thời gian và chất lượng với cách tìm hiện tại. Nếu No AI đạt mục tiêu thì tiếp tục dùng; nếu còn nghẽn, xem xét sửa ghi chú hoặc thử Rule trước Workflow.
 
 **Ngưỡng dừng / điều kiện không nâng cấp:**
 
-- Nếu có một trích dẫn sai được chấp nhận, dừng dùng đầu ra AI và xem lại bước kiểm nguồn/ngữ cảnh trước khi thử tiếp.
-- Sau bộ pilot dự kiến, nếu tổng thời gian và chất lượng không tốt hơn phương án đơn giản, không nâng cấp lên AI; quay về No AI/Rule hoặc tìm thủ công, sửa quy trình rồi đo lại. Target giảm ít nhất 30% là mục tiêu thử No AI so với baseline, chưa phải kết quả đạt được.
-- Chỉ đánh giá pilot khi đủ log tác vụ, thời gian chuẩn bị và kết quả kiểm chất lượng; nếu thiếu, tiếp tục giữ Not Yet.
+- Nếu có một bằng chứng sai nguồn, sai ngữ cảnh hoặc không hỗ trợ nhận định được chấp nhận, dừng dùng kết quả và quay về kiểm PDF thủ công; sửa bước xác minh trước khi thử tiếp.
+- Sau 1 tuần, nếu tổng thời gian không giảm ít nhất 30% hoặc không đạt tiêu chí chất lượng ở mục 7.3, chưa mở rộng cách làm; quay về tìm thủ công, sửa ghi chú và quy trình rồi đánh giá lại.
+- Nếu chưa đủ 10 yêu cầu hoặc thiếu log thời gian và kết quả kiểm, chưa kết luận pilot đạt; nhóm cần bổ sung trước khi quyết định tiếp.
 
-**Khi nào cân nhắc Go:** có pain thực tế và baseline đã đo, No AI/Rule chưa đủ, Workflow đem lại lợi ích về tổng công mà không giảm chất lượng, có người kiểm PDF và ngưỡng dừng. Nếu đạt, chỉ cân nhắc pilot AI nhỏ sau khi nhóm xác nhận; chưa phải Go triển khai rộng.
+**Khi nào cân nhắc pilot AI:** sau khi thử No AI/Rule mà vẫn còn bước nghẽn, nhóm mới đề xuất Workflow và so với phương án đơn giản tốt nhất, giữ bước người học kiểm PDF.
 
 ---
 
@@ -430,7 +430,7 @@ Với yêu cầu không có đáp án, chấm riêng việc nhận ra thiếu c�
 | Kinh nghiệm nội bộ | Thành viên nhóm dùng trải nghiệm bản thân để nêu và đối chiếu tình huống. | Ghi lại trường hợp cụ thể; giữ riêng với nguồn phỏng vấn ngoài nhóm. |
 | Quy trình và baseline | Có sơ đồ, actor/input/output, bước kiểm nguồn, fallback và ước lượng thời gian trong CP4. | Quan sát thao tác thật, đo từng bước và công chuẩn bị; không dùng ước lượng làm baseline thực nghiệm. |
 | Bộ eval | Kế hoạch 10 yêu cầu/3 paper, target giảm ít nhất 30%, các thước đo tốc độ và chất lượng. | Yêu cầu/đáp án có nguồn, trường hợp không có đáp án, log thử và ngưỡng chất lượng. |
-| Ma trận độ phức tạp | Phân loại ban đầu là mơ hồ thấp, phức tạp thấp. | Rà lại cách áp dụng tiêu chí của worksheet cho quy trình 5 bước. |
+| Ma trận độ phức tạp | Đề xuất mơ hồ thấp, phức tạp cao theo quy trình 5 bước nối tiếp. | Nhóm rà lại phạm vi và cách áp dụng tiêu chí của worksheet trước khi chốt. |
 | Quyết định và pilot | Đề xuất Not Yet đối với triển khai AI, thử No AI trước. | Chốt quyết định, lịch, người thử và người kiểm PDF sau khi hoàn thiện dữ liệu. |
 
 ### 9.2. Nguồn và sử dụng AI
