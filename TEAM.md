@@ -117,20 +117,20 @@ Mỗi thành viên tự ghi đóng góp và điều mình học được. Các t
 
 ### DongHuuNguyenKhoa_2A202604000
 
-- Phụ trách CP4, Problem Statement v0, thuyết trình, phản biện, đề xuất quyết định; chuẩn bị CP1-2 và phần cá nhân
+- Phụ trách CP5, Problem Statement v0, thuyết trình, phản biện, đề xuất quyết định; chuẩn bị CP1-2 và phần cá nhân
 
 **Đóng góp cụ thể**
 - Soạn 10 problem và 3 problem card, tìm tool và no-AI solution, điều kiện đánh giá
 - Phản biện, điều chỉnh và đề xuất selection cho Problem Card của cả nhóm
 - Thuyết trình, phản biện với cụm 2
-- Viết CP4
+- Viết CP5
 - Hoàn thiện báo cáo cá nhân
 
 **Bằng chứng**
 
 - [Báo cáo cá nhân](report/individual/2A202604000_DongHuuNguyenKhoa.md): CP1-2-3 ở các commit nhánh /individual và /team
-- [CP4](report/team/CP4.md): các commit nhánh /team
-- [CP4 trong báo cáo nhóm](report/team/group_report.md)
+- [CP5](report/team/CP4.md): các commit nhánh /team
+- [CP5 trong báo cáo nhóm](report/team/group_report.md)
 - [Shortlist](report/team/shortlist.md): commit shortlist
 
 **Điều mình học được từ phần nhóm**
