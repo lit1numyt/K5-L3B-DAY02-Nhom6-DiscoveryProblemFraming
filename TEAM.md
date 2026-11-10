@@ -91,6 +91,30 @@ Mỗi thành viên tự ghi đóng góp và điều mình học được. Các t
 - Research giúp tôi nhận ra công cụ có sẵn và cách ghi chú có nguồn có thể xử lý trực tiếp vấn đề; chưa cần chọn AI khi chưa thử phương án đơn giản.
 - Tôi cần phân biệt kịch bản minh họa với bằng chứng thực nghiệm, đo cả công chuẩn bị và xác minh, đồng thời kiểm đúng nguồn và ngữ cảnh trước khi đánh giá hiệu quả.
 
+### NguyenDucKhuongLam-2A202604020
+
+**Phần việc phụ trách:**
+
+- Phụ trách CP6: mức can thiệp, Problem Statement v1, tiêu chí đánh giá và đề xuất quyết định; chuẩn bị CP1–CP2 và phần cá nhân.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Soạn 10 problem theo 4 lăng kính và ba card về tìm lại bằng chứng, sàng lọc paper, đối chiếu điều kiện đánh giá.
+- Ưu tiên L1; bổ sung câu hỏi phản biện, lý do chọn và góp ý phân nhóm, các nhánh OST trong CP3.
+- Viết CP6 từ CP4–CP5: so sánh bốn mức, viết v1, tiêu chí đánh giá, bốn rủi ro và ngưỡng dừng. Tính cả công ghi chú và kiểm PDF, ưu tiên No AI.
+- Hoàn thiện báo cáo cá nhân, gồm nhật ký đóng góp, phần dùng AI và reflection.
+
+**Bằng chứng** (phần nào trong báo cáo, file hoặc commit):
+
+- [Báo cáo cá nhân](report/individual/2A202604020_NguyenDucKhuongLam.md): CP1–CP2 ở commit `f839717`.
+- [CP6](report/team/CP6.md), [PR #10](https://github.com/lit1numyt/K5-L3B-DAY02-Nhom6-DiscoveryProblemFraming/pull/10); các commit `3a49ddd` và `df45d91`.
+- [CP3 trong báo cáo nhóm](report/team/group_report.md#2-hội-tụ-nhóm-cp3), [PR #18 — CP1–CP3 và phần cá nhân](https://github.com/lit1numyt/K5-L3B-DAY02-Nhom6-DiscoveryProblemFraming/pull/18); commit `17f9101`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Tôi học cách chọn mức can thiệp từ đối tượng, quy trình và cách đo.
+- Tôi cần tính cả công ghi chú và kiểm ngữ cảnh khi đánh giá thời gian tiết kiệm.
+
 ### Mẫu để thành viên tự bổ sung
 
 #### HoVaTen-MSSV
